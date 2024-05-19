@@ -21,7 +21,7 @@ body{
 }
 @media (max-width : 768px ){
     .main{
-        transform: scale(0.7);
+        transform: scale(0.9);
     }
 }
 .main>h1{
