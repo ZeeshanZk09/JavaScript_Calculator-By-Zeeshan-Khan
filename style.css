@@ -25,18 +25,11 @@ body{
         transform: scale(0.9);
         flex-direction: column-reverse;
     }
-    .img{
-        transform: scale(0.8);
+    .img a>img{
+        transform: scale(0.6);
     }
 }
-/* .img {
-    background-image: url(./hero_img/C-removebg-preview.png);
-    background-size: cover;
-    block-size: 300px;
-    inline-size: 300px;
-    z-index: 1;
 
-} */
 .calculator {
     border: 1px solid #717377;
     padding: 20px;
