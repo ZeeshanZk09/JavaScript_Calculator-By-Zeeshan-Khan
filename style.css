@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-@media (max-width : 768px ){
+@media (min-width : 320px ) and (max-width : 768px){
     .main{
         transform: scale(0.9);
     }
