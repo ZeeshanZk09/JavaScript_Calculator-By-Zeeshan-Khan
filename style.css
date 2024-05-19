@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=wght@500&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    inline-size: 100%;
+    block-size: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a, #3a4452);
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    align-items: baseline;
+    font-size: 20px;
+}
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+    
+}
+input{
+    inline-size: 320px;
+    border: 1px solid rgb(80, 75, 75);
+    border-radius: 10px;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+    font-size: 40px;
+    text-align: end;
+    cursor: pointer;
+    color: #ffffff;
+}
+input::placeholder{
+    color: #ffff;
+}
+button{
+    border: none;
+    inline-size: 60px;
+    block-size: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.equalBtn{
+    background-color: #fb7c14;
+}
+.operator{
+    color: green;
+}
