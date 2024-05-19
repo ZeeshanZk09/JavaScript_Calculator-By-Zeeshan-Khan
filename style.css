@@ -17,18 +17,26 @@ body{
 }
 .main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    gap: 50px;
 }
 @media (min-width : 320px ) and (max-width : 768px){
     .main{
         transform: scale(0.9);
+        flex-direction: column-reverse;
+    }
+    .img{
+        transform: scale(0.8);
     }
 }
-.main>h1{
-    text-align: center;
-    align-items: baseline;
-    font-size: 20px;
-}
+/* .img {
+    background-image: url(./hero_img/C-removebg-preview.png);
+    background-size: cover;
+    block-size: 300px;
+    inline-size: 300px;
+    z-index: 1;
+
+} */
 .calculator {
     border: 1px solid #717377;
     padding: 20px;
