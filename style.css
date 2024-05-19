@@ -19,7 +19,12 @@ body{
     display: flex;
     flex-direction: column;
 }
-h1{
+@media (max-width : 768px ){
+    .main{
+        transform: scale(0.7);
+    }
+}
+.main>h1{
     text-align: center;
     align-items: baseline;
     font-size: 20px;
